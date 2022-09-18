@@ -1,0 +1,111 @@
+body{
+    background-image:url("img/estrelas.gif");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.nav,.navh1{
+    border-radius: 10em;
+    background-color: rgb(228, 240, 162 0.5);
+    text-align: center;
+    color: rgb(0, 255, 64);
+    margin: 0.5em 1.1em 0.6em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+    color: rgb(0, 255, 64);
+}
+.botao{
+    background-color: rgb(4, 80, 23) ;
+    animation-duration: 6s;
+    animation-name: slidein;
+    border-radius: 10em;
+    width: 15em;
+    text-decoration: none !important;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    height: 2.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+@keyframes slidein{
+    from{
+        margin-left: 8.7em;
+        margin-right: 8.7em;
+        width: 20em;
+        height: 3.0em;
+        background-color:rgb(255, 255, 255);
+        color: white;
+    }
+    to{
+        color: rgb(21, 255, 0);
+        margin-right: 2.5em;
+        margin-left: 2.5em;
+        width: 15em;
+        height: 2.5;
+        background-color:rgb(4, 80, 23);
+    }
+}
+.botao2{
+    animation-name: slideout;
+    background-color:rgb(4, 80, 23);
+    animation-duration: 6s;
+    border-radius: 10em;
+    text-decoration: none !important;
+    margin-top: 4em;
+    width: 10em;
+    height: 2.5em;
+    box-shadow: 0.12em 0.12em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navlateral{
+    width: 9em;
+    position: absolute;
+    height: 100%;
+    border-radius: 2em;
+    
+}
+
+@keyframes slideout{
+    from{
+        margin-top: 0.1em;
+        height: 1.5em;
+        background-color:rgb(245, 245, 245);
+        animation-duration: 2s;
+
+    }
+
+
+    to{
+        margin-top:4em;
+        width: 10em;
+        
+        background-color:rgb(4, 80, 23);
+        animation-duration: 2s;
+    }
+}
+.informações{
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 255, 64);
+    
+}
+.texto{
+    padding-top: 5em;
+    width: 74em;
+    color: rgb(0, 255, 64);
+    padding-left: 12%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    
+}
+.texto img{
+    width: 20em;
+    height: 10em;
+    margin-top: 2em;
+}
