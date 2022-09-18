@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo4.css">
+    <link rel="stylesheet" href="estilo8.css">
     <link rel="icon" href="img/icone.jpeg">
-    <title>CB Produtos</title>
+    <title>CB Atividade</title>
 </head>
 
 <body>
     <header>
-        <h1 class="navh1">Cyberpunk Builds, Produtos</h1>
+        <h1 class="navh1">Cyberpunk Builds</h1>
         <div class="nav">
             <nav>
                 <button class="botao">
@@ -49,21 +49,16 @@
             <button class="botao2">
                 <a href="equipe.html">Equipe</a>
             </button>
+            <button class="botao2">
+                <a href="atividadephp.php">Atividade</a>
+            </button>
         </nav>
 
     </div>
     <div class="texto">
+        <p> </p>
         
-            <div>
-                <img src="img/cyberpunkart.jpg" alt=""> 
-                </div>
-            <div><img src="img/cyberpunkart2.jpg" alt=""></div>
-            <div><img src="img/cyberpunkart3.jpg" alt=""></div>
-            <div><img src="img/cyberpunkart4.jpg" alt=""></div>
-            <div><img src="img/cyberpunkart5.jpg" alt=""></div>
-            <div><img src="img/cyberpunkart6.jpg" alt=""></div>
-        
-         
+    </div>
 </footer>
 
 </html>
