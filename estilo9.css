@@ -100,7 +100,8 @@ a{
     width: 74em;
     color: rgb(0, 255, 64);
     padding-left: 12%;
+    
 }
-.texto h1{
-    margin-left: 14em;
-}
+.texto form{
+    margin-left: 24em;
+    padding-top: 1em;
